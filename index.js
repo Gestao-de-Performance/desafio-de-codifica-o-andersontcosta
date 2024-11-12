@@ -8,7 +8,7 @@ function exercicio1() {
 
 // Exercício 2
 function exercicio2() {
-    let numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    let numeros = [1,2,3,4,5,6,7,8,9,10];
     let soma = numeros.reduce((a, b) => a + b, 0);
     let media = soma / numeros.length;
     console.log("Exercício 2 - A média é: " + media);
